@@ -25,12 +25,12 @@ In this project I use machine learning models to abnalyze applcations for donati
 | --- | --- | --- |
 | Neurons | first layer: 80<br>second layer: 30 | More number of neurons give a higher accuracy. *Therefore the neurons were increased in later attemps to achieve that* |
 | Layers | 2 (and an output layer)| More number of layers improves performance, but a lower number runs the analysis faster [^1]<br>2 layers can represent accuracy with rational activation functions [^2] |
-| Activation Functions | Rectified Linear Unit (relu) | "relu" function  |
+| Activation Functions | Rectified Linear Unit (relu) | "relu" function is the most advanced function [^3] |
 
 [^1]: `https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw`
 [^2]: `https://medium.com/geekculture/introduction-to-neural-network-2f8b8221fbd3`
-
-2. The target accuracy was 75%, however 53.38% was achieved in the first attempt. Certain modifications were made to improve the accuracy and the highest value achieved was 60.75%
+[^3]: `https://www.aitude.com/comparison-of-sigmoid-tanh-and-relu-activation-functions/#:~:text=ReLu%20is%20the%20best%20and,compare%20to%20other%20activation%20function.`
+2. The target accuracy was 75%, however 53.38% was achieved in the first attempt. Certain modifications were made to improve the accuracy and the highest value achieved was **60.75%**
 
 3. The following 3 attemps were made at improving the accuracy: 
 
@@ -43,11 +43,6 @@ In this project I use machine learning models to abnalyze applcations for donati
 As can be seen in the table above, the first two attempts resulted in improving the accuracy achieved in the original attempt (53.38%)
 
 Unfortunaetly, changing the activation function from "sigmoid" to "relu" in the output layer reduced the accuracy.
-
-<p align="left">
-<img src="/Resources/eec.png" width="70%" height="35%">
-</p>
-
 
 ## Summary
 
